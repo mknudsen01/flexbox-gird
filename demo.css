@@ -1,6 +1,14 @@
+body {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .box {
-  height: 40px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   background-color: blue;
   text-align: center;
   color: white;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
