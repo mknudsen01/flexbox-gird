@@ -1,3 +1,13 @@
+:root {
+  --color--primary: #2980b9;
+  --color--text: #343434;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color--text);
+}
+
 body {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -6,7 +16,8 @@ body {
 .box {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  background-color: blue;
+  background-color: var(--color--primary);
+  border-radius: 5px;
   text-align: center;
   color: white;
   margin-top: 0.75rem;
