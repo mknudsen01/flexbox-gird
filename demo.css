@@ -1,6 +1,7 @@
 :root {
   --color--primary: #2980b9;
   --color--text: #343434;
+  --color--highlight: #9b59b6;
 }
 
 html {
@@ -32,4 +33,8 @@ body {
 .box--smaller {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.box--highlight {
+  background-color: var(--color--highlight);
 }
