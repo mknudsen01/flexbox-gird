@@ -2,6 +2,7 @@
   --color--primary: #2980b9;
   --color--text: #343434;
   --color--highlight: #9b59b6;
+  --color--code: #16a085;
 }
 
 html {
@@ -12,6 +13,10 @@ html {
 body {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+code {
+  color: var(--color--code);
 }
 
 .box {
