@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="demo.css">
   </head>
   <body>
-    <div class="container">
+    <section class="container">
 
       <h2>Flexbox Gird</h2>
       <p>This is the flexbox gird.</p>
@@ -120,6 +120,57 @@
           <div class="box">12</div>
         </div>
       </div>
-    </div>
+
+      <hr>
+
+      <h3>Vertical Alignment</h3>
+      <p>If your row items aren't the same height, adjust the vertical alignment by adding a <code>row--top</code>, <code>row--middle</code>, <code>row--bottom</code> modifier to the <code>row</code>.</p>
+
+      <div class="row row--top">
+        <div class="col--3">
+          <div class="box box--bigger">Big</div>
+        </div>
+        <div class="col--3">
+          <div class="box">Normal</div>
+        </div>
+        <div class="col--3">
+          <div class="box box--smaller">Smaller</div>
+        </div>
+        <div class="col--3">
+          <div class="box box--bigger">Bigger</div>
+        </div>
+      </div>
+
+      <div class="row row--middle">
+        <div class="col--3">
+          <div class="box box--bigger">Big</div>
+        </div>
+        <div class="col--3">
+          <div class="box">Normal</div>
+        </div>
+        <div class="col--3">
+          <div class="box box--smaller">Smaller</div>
+        </div>
+        <div class="col--3">
+          <div class="box box--bigger">Bigger</div>
+        </div>
+      </div>
+
+      <div class="row row--bottom">
+        <div class="col--3">
+          <div class="box box--bigger">Big</div>
+        </div>
+        <div class="col--3">
+          <div class="box">Normal</div>
+        </div>
+        <div class="col--3">
+          <div class="box box--smaller">Smaller</div>
+        </div>
+        <div class="col--3">
+          <div class="box box--bigger">Bigger</div>
+        </div>
+      </div>
+
+    </section>
   </body>
 </html>

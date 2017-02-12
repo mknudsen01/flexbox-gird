@@ -23,3 +23,13 @@ body {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
+
+.box--bigger {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.box--smaller {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
